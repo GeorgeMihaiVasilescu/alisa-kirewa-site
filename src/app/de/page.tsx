@@ -1,11 +1,13 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-black font-sans px-6 py-24 flex flex-col items-center">
       <div className="w-full max-w-3xl">
         <div className="w-full text-sm text-gray-500 text-right mb-10 pr-2">
           Verfügbar in: 
-          <a href="/de" className="underline mx-2">Deutsch</a> | 
-          <a href="/en" className="underline mx-2">Englisch</a>
+          <Link href="/de" className="underline mx-2">Deutsch</Link> | 
+          <Link href="/en" className="underline mx-2">English</Link>
         </div>
 
         <header className="mb-10">
@@ -15,19 +17,22 @@ export default function Home() {
 
         <section className="mb-10 space-y-5 text-base leading-relaxed">
           <p>
-            Alisa Kirewa hat 2019 ihren Bachelor of Arts in Medienwirtschaft an der Hochschule der Medien Stuttgart abgeschlossen.
+            Bachelor of Arts in Medienwirtschaft, Hochschule der Medien Stuttgart, Abschlussjahr 2019.
           </p>
           <p>
-            Derzeit unterstützt sie das Museum of Contemporary Tattoos in kreativen und organisatorischen Rollen — sie bereitet visuelle Materialien vor, hilft bei der Koordination und trägt zur Entwicklung neuer Partnerschaften bei.
+            Berufserfahrung in Medien-, Kultur- und Technologiebereichen mit Schwerpunkt auf Projektkoordination, Kommunikation und IT-Systeme.
           </p>
           <p>
-            Sie hat in Medien-, Kultur- und Technologieumfeldern gearbeitet, darunter Praktika bei ProSiebenSat.1 und ein mehrjähriges Ausbildungsprogramm bei TDS/Fujitsu, wo sie Erfahrungen in Projektkoordination, IT-Systemen, Marketing und Kommunikation sammelte.
+            Mitwirkung am Museum of Contemporary Tattoos im Bereich visuelle Inhalte, organisatorische Abläufe und Entwicklung von Partnerschaften.
           </p>
           <p>
-            Außerdem besitzt sie Zertifizierungen in NLP (Neuro-Linguistisches Programmieren), Systemischem Coaching, Agilem Management und HR-Strategie — was ihren interdisziplinären Ansatz für kulturelle und organisatorische Entwicklung unterstützt.
+            Frühere Stationen: Praktika bei ProSiebenSat.1 sowie ein mehrjähriges Ausbildungsprogramm bei TDS/Fujitsu.
           </p>
           <p>
-            Für berufliche Anfragen kontaktieren Sie sie bitte unter <a href="mailto:alisa@alisakirewa.com" className="underline text-blue-600">alisa@alisakirewa.com</a>.
+            Zertifiziert in NLP, Systemischem Coaching, Agilem Management und HR-Strategie.
+          </p>
+          <p>
+            Kontakt: <a href="mailto:alisa@alisakirewa.com" className="underline text-blue-600">alisa@alisakirewa.com</a>
           </p>
         </section>
 
@@ -43,6 +48,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 

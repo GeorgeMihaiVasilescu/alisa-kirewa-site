@@ -1,3 +1,5 @@
+
+
 import Link from 'next/link';
 
 export default function Home() {
@@ -17,19 +19,22 @@ export default function Home() {
 
         <section className="mb-10 space-y-5 text-base leading-relaxed">
           <p>
-            Alisa Kirewa holds a Bachelor of Arts degree in Media Management (Medienwirtschaft) from Hochschule der Medien Stuttgart, awarded in 2019.
+            Bachelor of Arts in Media Management (Medienwirtschaft), Hochschule der Medien Stuttgart, 2019.
           </p>
           <p>
-            Alisa currently supports the Museum of Contemporary Tattoos in both creative and organizational roles — preparing visual materials, assisting with coordination, and contributing to the development of new partnerships.
+            Experience across media, cultural, and tech sectors, with a focus on project coordination, communication, and IT systems.
           </p>
           <p>
-            She has worked in media, cultural, and technology environments, including internships at ProSiebenSat.1 and a multi-year training program at TDS/Fujitsu, where she gained experience in project coordination, IT systems, marketing, and communication.
+            Contributes to the Museum of Contemporary Tattoos in the areas of visual material production, coordination, and partnership development.
           </p>
           <p>
-            Additionally, she holds certifications in NLP (Neuro-Linguistic Programming), Systemic Coaching, Agile Management, and HR Strategy — supporting her interdisciplinary approach to both cultural and organizational development.
+            Previous positions include internships at ProSiebenSat.1 and a multi-year program at TDS/Fujitsu.
           </p>
           <p>
-            For professional inquiries, please contact her at <a href="mailto:alisa@alisakirewa.com" className="underline text-blue-600">alisa@alisakirewa.com</a>.
+            Certified in NLP, Systemic Coaching, Agile Management, and HR Strategy.
+          </p>
+          <p>
+            Contact: <a href="mailto:alisa@alisakirewa.com" className="underline text-blue-600">alisa@alisakirewa.com</a>
           </p>
         </section>
 
@@ -45,7 +50,5 @@ export default function Home() {
     </main>
   );
 }
-
-
 
 
