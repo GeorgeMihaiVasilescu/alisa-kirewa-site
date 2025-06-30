@@ -27,13 +27,13 @@ export default function Home() {
             Außerdem besitzt sie Zertifizierungen in NLP (Neuro-Linguistisches Programmieren), Systemischem Coaching, Agilem Management und HR-Strategie — was ihren interdisziplinären Ansatz für kulturelle und organisatorische Entwicklung unterstützt.
           </p>
           <p>
-            Für berufliche Anfragen kontaktieren Sie sie bitte unter <a href="mailto:kirewa.alisa@gmail.com" className="underline text-blue-600">kirewa.alisa@gmail.com</a>.
+            Für berufliche Anfragen kontaktieren Sie sie bitte unter <a href="mailto:alisa@alisakirewa.com" className="underline text-blue-600">alisa@alisakirewa.com</a>.
           </p>
         </section>
 
         <div className="text-left">
           <a
-            href="mailto:kirewa.alisa@gmail.com"
+            href="mailto:alisa@alisakirewa.com"
             className="inline-block bg-black text-white px-6 py-2 rounded-xl hover:bg-gray-800 transition"
           >
             Kontakt aufnehmen
@@ -43,5 +43,6 @@ export default function Home() {
     </main>
   );
 }
+
 
 
